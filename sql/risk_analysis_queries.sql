@@ -30,8 +30,8 @@ RiskFlagged AS (
 SELECT 
     site_location_id,
     risk_category,
-    COUNT(equipment_id) AS total_incidents,
-    CURRENT_TIMESTAMP() AS report_generated_at
+    COUNT(1) AS total_incidents,                     -- Total anomalous readings
+    COUNT(DISTINCT equipment_id) AS unique_equipments -- Unique affected equipments
 FROM RiskFlagged
 WHERE risk_category != 'NORMAL'
 GROUP BY site_location_id, risk_category
