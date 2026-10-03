@@ -34,7 +34,7 @@ By integrating IoT sensor data with relational databases, the pipeline automates
           │
           ▼
 [Data Modeling (Star Schema)] ──► [SQL Risk Analytics / Business Reports]
----
+'''
 
 ## 📊 Key SQL Analytics & Business Insights
 
