@@ -34,7 +34,7 @@ By integrating IoT sensor data with relational databases, the pipeline automates
           │
           ▼
 [Data Modeling (Star Schema)] ──► [SQL Risk Analytics / Business Reports]
-'''
+```
 
 ## 📊 Key SQL Analytics & Business Insights
 
@@ -54,5 +54,6 @@ iot-construction-risk-pipeline/
 ├── scripts/
 │   └── extract_transform.py          # Python ETL script using Pandas & SQLAlchemy
 └── README.md                         # Main documentation
+```
 ## 👤 Author
 * **Nathan de Souza Gilmen e Silva** - [LinkedIn](https://linkedin.com/in/nathan-gilmen-7b493b119)
