@@ -38,7 +38,7 @@ By integrating IoT sensor data with relational databases, the pipeline automates
 
 ## 📊 Key SQL Analytics & Business Insights
 
-The analytical layer enables real-time monitoring and reporting. Key metrics calculated include:
+The analytical layer enables batch monitoring and reporting. Key metrics calculated include:
 1. **Anomaly Detection:** Identification of telemetry spikes exceeding safety thresholds using `Window Functions` (`AVG() OVER (PARTITION BY ...)`).
 2. **Equipment Downtime Risk:** Rolling sum analysis of stress indicators over 24-hour windows using SQL `CTEs`.
 3. **Zone Risk Scoring:** Aggregated operational risk levels across site locations.
